@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import NavBar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
-import StatsBox from "./Components/StatsBox";
+import About from "./Components/About";
 
 const SocialSidebar = () => {
   return (
@@ -48,8 +48,8 @@ function App() {
     <>
       <NavBar />
       <HeroSection />
-      <StatsBox />
       <SocialSidebar />
+      <About />
     </>
   );
 }

@@ -3,7 +3,7 @@ import React from "react";
 const NavBar = () => {
   const navStyle = {
     backgroundColor: "rgba(253, 253, 253, 0.4)",
-    borderRadius: "10px",
+    borderRadius: "30px",
     padding: "10px 10px",
     display: "flex",
     gap: "70px",
@@ -11,9 +11,12 @@ const NavBar = () => {
     alignItems: "center",
     color: "#CAE5FF",
     width: "1020px",
-    height: "20px",
+    height: "30px",
     margin: "10px auto",
     fontSize: "20px",
+    fontFamily: "'Abhaya Libre', serif",
+    fontWeight: 600,
+    fontStyle: "normal",
   };
 
   const linkStyle = {

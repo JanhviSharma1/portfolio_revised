@@ -18,12 +18,17 @@ const StatsBox = () => {
   const numberStyle = {
     color: "#5C84B4",
     fontSize: "34px",
-    fontWeight: "bold",
+    fontFamily: "'Agdasima', sans-serif",
+    fontWeight: 700,
+    fontStyle: "normal",
   };
 
   const labelStyle = {
     fontSize: "18px",
     marginTop: "4px",
+    fontFamily: "'Abhaya Libre', serif",
+    fontWeight: 600,
+    fontStyle: "normal",
   };
 
   return (

@@ -3,6 +3,7 @@ import "./App.css";
 import NavBar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import About from "./Components/About";
+import Experience from "./Components/Experience";
 
 const SocialSidebar = () => {
   return (
@@ -50,6 +51,12 @@ function App() {
       <HeroSection />
       <SocialSidebar />
       <About />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Experience />
     </>
   );
 }

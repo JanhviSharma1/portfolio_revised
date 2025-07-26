@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-const Technologies = ({ name, iconadd }) => {
+export const Technologies = ({ name, iconadd }) => {
   return (
     <span
       style={{

@@ -4,6 +4,8 @@ import NavBar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
 import About from "./Components/About";
 import Experience from "./Components/Experience";
+import Projects from "./Components/Projects";
+import Contact from "./Components/Contact";
 
 const SocialSidebar = () => {
   return (
@@ -57,6 +59,18 @@ function App() {
       <br />
       <br />
       <Experience />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Projects />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Contact />
     </>
   );
 }

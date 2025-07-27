@@ -50,27 +50,27 @@ function App() {
   return (
     <>
       <NavBar />
-      <HeroSection />
+      <section id="home">
+        <HeroSection />
+      </section>
+
       <SocialSidebar />
-      <About />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Experience />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Projects />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <Contact />
+
+      <section style={{ marginTop: "40px" }} id="about">
+        <About />
+      </section>
+
+      <section style={{ marginTop: "70px" }} id="experience">
+        <Experience />
+      </section>
+
+      <section style={{ marginTop: "70px" }} id="projects">
+        <Projects />
+      </section>
+
+      <section style={{ marginTop: "70px" }} id="contact">
+        <Contact />
+      </section>
     </>
   );
 }

@@ -2,6 +2,11 @@ import React from "react";
 
 const NavBar = () => {
   const navStyle = {
+    position: "fixed",
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 1000,
     backgroundColor: "rgba(253, 253, 253, 0.4)",
     borderRadius: "30px",
     padding: "10px 10px",
@@ -11,12 +16,14 @@ const NavBar = () => {
     alignItems: "center",
     color: "#CAE5FF",
     width: "1020px",
+    maxWidth: "1020px",
     height: "30px",
     margin: "10px auto",
     fontSize: "20px",
     fontFamily: "'Abhaya Libre', serif",
     fontWeight: 600,
     fontStyle: "normal",
+    backdropFilter: "blur(8px)",
   };
 
   const linkStyle = {
@@ -31,7 +38,7 @@ const NavBar = () => {
 
   return (
     <nav style={navStyle}>
-      {["Home", "About me", "Experience", "Projects", "Contact"].map((item) => (
+      {["Home", "About", "Experience", "Projects", "Contact"].map((item) => (
         <a
           key={item}
           href={`#${item.toLowerCase()}`}

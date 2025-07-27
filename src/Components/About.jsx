@@ -56,7 +56,7 @@ const About = () => {
         <Technologies name="GSAP" iconadd="./skills/gsap.svg" />
 
         <br />
-        <h2 className="text">Data Analatics</h2>
+        <h2 className="text">Data Analytics</h2>
         <Technologies name="PowerBI" iconadd="./skills/powerbi.svg" />
         <Technologies name="Numpy" iconadd="./skills/numpy.svg" />
         <Technologies name="Matplotlib" iconadd="./skills/matplotlib.png" />

@@ -13,6 +13,7 @@ const HeroSection = () => {
     fontFamily: "'Roboto', sans-serif",
     gap: "60px",
     width: "1310px",
+    marginTop: "70px",
   };
 
   const textContainerStyle = {
@@ -48,6 +49,9 @@ const HeroSection = () => {
     border: "none",
     cursor: "pointer",
     transition: "background-color 0.3s ease",
+    fontFamily: "'Abhaya Libre', serif",
+    fontWeight: "400",
+    fontStyle: "normal",
   };
 
   const statsBoxStyle = {

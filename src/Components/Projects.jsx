@@ -36,7 +36,7 @@ const Projects = () => {
         ]}
       />
       <button className="more">
-        <img className="more" src="./more.svg" alt="More Projects" />
+        <img className="more " src="./more.svg" alt="More Projects" />
       </button>
     </section>
   );

@@ -278,3 +278,39 @@
   cursor: pointer;
   transition: transform 0.2s ease;
 }
+
+.toast-notif {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #cae5ff;
+  color: #456694;
+  font-style: bold;
+  padding: 16px 24px;
+  border-radius: 20px;
+  font-family: "Arapey", serif;
+  font-weight: 400;
+  z-index: 9999;
+  animation: slideDownFadeOut 3s forwards;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slideDownFadeOut {
+  0% {
+    top: -100px;
+    opacity: 0;
+  }
+  15% {
+    top: 40px;
+    opacity: 1;
+  }
+  85% {
+    top: 40px;
+    opacity: 1;
+  }
+  100% {
+    top: -100px;
+    opacity: 0;
+  }
+}

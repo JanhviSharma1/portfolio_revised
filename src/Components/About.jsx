@@ -1,23 +1,21 @@
 import React from "react";
 import "../App.css";
 
-export const Technologies = ({ name, iconadd }) => {
+export const Technologies = ({ name, iconadd, variant }) => {
+  const isCard = variant === "card";
+
   return (
-    <span
-      style={{
-        display: "inline-flex",
-        alignItems: "center",
-        marginRight: "16px",
-      }}
-      className="tech-color"
-    >
+    <span className={isCard ? "tech-badge" : "tech-color"}>
       <img
-        className="tech-color"
         src={iconadd}
         alt={name}
-        style={{ width: "24px", marginRight: "8px" }}
+        style={{
+          width: isCard ? "18px" : "24px",
+          marginRight: "6px",
+          verticalAlign: "middle",
+        }}
       />
-      <h6 className="tech-font">{name}</h6>
+      <span className={isCard ? "card-tech-font" : "tech-font"}>{name}</span>
     </span>
   );
 };

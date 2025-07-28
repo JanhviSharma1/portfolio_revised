@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="toast-notif">Your message was sent successfully!</div>
       )}
 
-      <h2 className="headings">LET'S BUILD</h2>
+      <h2 className="headings">LET'S CREATE</h2>
       <h2 className="sub headings">SOMETHING AMAZING!</h2>
       <br />
 

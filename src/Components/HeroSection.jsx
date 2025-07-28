@@ -68,7 +68,7 @@ const HeroSection = () => {
   };
 
   const numberStyle = {
-    color: "#5C84B4",
+    color: "#6893c8ff",
     fontSize: "34px",
     fontFamily: "'Agdasima', sans-serif",
     fontWeight: 700,

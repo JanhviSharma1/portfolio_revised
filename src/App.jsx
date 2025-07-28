@@ -6,49 +6,11 @@ import About from "./Components/About";
 import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-
-const SocialSidebar = () => {
-  return (
-    <div className="social-sidebar">
-      <div className="tooltip">
-        <a
-          href="https://twitter.com/yourhandle"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="/twitter.svg" alt="Twitter" className="social-icon" />
-        </a>
-        <span className="tooltip-text">Twitter</span>
-      </div>
-
-      <div className="tooltip">
-        <a
-          href="https://www.linkedin.com/in/janhvi-sharma/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="/linkedin.svg" alt="LinkedIn" className="social-icon" />
-        </a>
-        <span className="tooltip-text">LinkedIn</span>
-      </div>
-
-      <div className="tooltip">
-        <a
-          href="https://github.com/JanhviSharma1"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="/github.svg" alt="GitHub" className="social-icon" />
-        </a>
-        <span className="tooltip-text">GitHub</span>
-      </div>
-    </div>
-  );
-};
+import SocialSidebar from "./Components/SocialSidebar";
 
 function App() {
   return (
-    <>
+    <div className="custom-scrollbar">
       <NavBar />
       <section id="home">
         <HeroSection />
@@ -71,7 +33,7 @@ function App() {
       <section style={{ marginTop: "70px" }} id="contact">
         <Contact />
       </section>
-    </>
+    </div>
   );
 }
 

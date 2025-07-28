@@ -2,19 +2,27 @@ import React from "react";
 import "../App.css";
 import { Technologies } from "./About";
 
-const Cards = ({ title, src, tech }) => {
+const Cards = ({ title, src, tech, externalLink }) => {
   return (
     <div className="project-card">
       <img src={src} alt={title} className="project-img" />
       <div className="project-content">
         <h3 className="project-title">{title}</h3>
-        <div className="project-tech-stack">
+        <br />
+        <div className="project-tech-stack" style={{ fontSize: "1px" }}>
           {tech.map((t, index) => (
-            <Technologies key={index} name={t.name} iconadd={t.icon} />
+            <Technologies
+              key={index}
+              name={t.name}
+              iconadd={t.icon}
+              variant="card"
+            />
           ))}
         </div>
-        <img className="external" src="./external.svg" alt="External Link" />
       </div>
+      <a href={externalLink} target="_blank" rel="noopener noreferrer">
+        <img className="external" src="./external.svg" alt="External Link" />
+      </a>
     </div>
   );
 };
@@ -28,7 +36,7 @@ const Projects = () => {
 
       <div className="project-card-container">
         <Cards
-          title="PrepWise: AI Mock Interview"
+          title="PrepWise: AI Mock Interviewer"
           src="./Projects/AImock.png"
           tech={[
             { name: "Next.js", icon: "./skills/nextjs.svg" },
@@ -37,6 +45,7 @@ const Projects = () => {
             { name: "Shadcn UI", icon: "./skills/shadcn.png" },
             { name: "Firebase", icon: "./skills/firebase.svg" },
           ]}
+          externalLink="https://github.com/JanhviSharma1/ai-mock-interviews"
         />
 
         <Cards
@@ -49,6 +58,7 @@ const Projects = () => {
             { name: "Pandas", icon: "./skills/pandas.svg" },
             { name: "Matplotlib", icon: "./skills/matplotlib.png" },
           ]}
+          externalLink="https://github.com/JanhviSharma1/customer-churn-prediction"
         />
 
         <Cards
@@ -61,11 +71,20 @@ const Projects = () => {
             { name: "Pandas", icon: "./skills/pandas.svg" },
             { name: "Matplotlib", icon: "./skills/matplotlib.png" },
           ]}
+          externalLink="https://github.com/JanhviSharma1/twitter-sentiment-analysis"
         />
 
-        <button className="more">
-          <img className="more" src="./more.svg" alt="More Projects" />
-        </button>
+        <div className="more-container">
+          <a
+            href="https://github.com/JanhviSharma1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="more">
+              <img src="./more.svg" alt="More" width={24} />
+            </button>
+          </a>
+        </div>
       </div>
     </section>
   );

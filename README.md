@@ -1,12 +1,29 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and clean portfolio website built with **Next.js** and **Tailwind CSS** to showcase my skills, experience, and projects.  
+Hosted on **Vercel** with **TypeScript** for type safety and scalability.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Hero Section** – Eye-catching introduction with my name, role, and a call-to-action.
+- **About Section** – A brief overview of who I am and my journey.
+- **Skills Section** – Technologies and tools I’m proficient in.
+- **Experience Section** – My work history and roles.
+- **Projects Section** – Selected projects with descriptions and links.
+- **Contact Form** – Easy way for visitors to reach out directly.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Hosting:** [Vercel](https://vercel.com/)
+
+
+## Future Add-ons
+
+- Smooth animations and micro-interactions.
+- Full mobile and tablet responsiveness.
+

@@ -1,3 +1,4 @@
+![Banner](./public/PORTFOLIO-BANNER.png)
 # Portfolio Website
 
 A modern and clean portfolio website built with **Next.js** and **Tailwind CSS** to showcase my skills, experience, and projects.  
